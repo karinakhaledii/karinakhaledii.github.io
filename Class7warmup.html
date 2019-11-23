@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<center>
+		<title> Tennis </title>
+		<h3> Tennis </h3>
+		<link rel="stylesheet" type="text/css" href="Class7warmup.css">
+		<script type="text/javascript">
+		
+		
+
+		var number = 1;
+			//this code is used to invert images back and forth from one another//
+		function update(){
+			number = number *-1;
+	if (number == -1){
+		document.getElementById('img').src='https://yt3.ggpht.com/a/AGF-l7-uDLDFlVG_6yQT95R4-q6AsRWrlhtFxHyg9w=s900-c-k-c0xffffffff-no-rj-mo';
+	
+	}
+	if (number == 1){
+	document.getElementById('img').src='https://www.usopen.org/images/pics/large/f_USTA828503_20170910_DCA03563.jpg';
+	}
+}	
+</script>
+</head>
+	<body>
+	
+		<img id='img' onclick="update()"src='https://www.usopen.org/images/pics/large/f_USTA828503_20170910_DCA03563.jpg'>
+	</body>
+</html>
+
